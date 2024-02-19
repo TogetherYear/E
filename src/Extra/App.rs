@@ -15,7 +15,7 @@ impl Application {
 impl Default for Application {
     fn default() -> Self {
         Self {
-            author: "测试：TSingleton".to_owned(),
+            author: "测试:TSingleton".to_owned(),
         }
     }
 }
