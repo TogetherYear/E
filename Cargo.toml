@@ -2,10 +2,14 @@
 name = "E"
 version = "0.1.0"
 edition = "2021"
+build =  "build.rs"
 
 [dependencies]
 eframe = "0.26.2"
 image = "0.24.8"
+
+[build-dependencies]
+embed-resource = "2.4.1"
 
 [profile.release]
 panic = "abort"
